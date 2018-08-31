@@ -1,0 +1,7 @@
+# Stress Prediction Algorithms
+
+This project aims to compare the accuracy of different classes of algorithms in a word stress prediction task. The first class comprises machine learning algorithms (decision tree classifiers and SVMs from scikit learn) which are trained on a partition of the data and then make predictions on a test partition. The other class of algorithms is explicitly defined based on human perceptual thresholds of certain acoustic measures. These algorithms run over an entire dataset (no training). The algorithms are implemented in Python using data from an unrelated production experiment. The ultimate goal is to add data from a variety of stress languages.
+
+The question that got me interested in this project is: can machine learning techniques be employed in phonetic studies which aim to identify acoustic correlates of word stress in a language? Can we apply learning algorithms to data to effectively predict stress, and is doing so even principled (since not all learning algorithms are transparent, and even if they are, may not make the types of distinctions that humans can reliably perceive)? Looking at the flip side--that is, in terms of possible applications in speech processing,--do machine learning algorithms make better predictions than hand-built algorithms which are based on what we already know about human perception?
+
+This project is still in its early stages, so I invite any comments or feedback. Thanks!
